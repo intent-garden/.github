@@ -24,6 +24,15 @@ The heart of our S-OAK (Symbolic Oracle & Architecture Kernel) workflow.
  - *Stack:* Clojure/Babashka + Clang AST.
  - *Method: Garden-Tagging.* We use AI as a laborer to annotate code, while our Lisp-based Enforcer validates every pointer, mutex, and memory boundary with zero runtime overhead.
 
+## 🎨 libwui
+
+The UI-Framework with a Semantic Backbone.
+
+- *Target:* Safe, high-performance C++/C graphical interfaces.
+- *Status:* Adopted by Intent-Garden.
+- *The Upgrade:* We are retrofitting the entire event-loop and widget lifecycle with Garden-Tags.
+- *Benefit:* No more "Use-after-free" on deleted buttons. The Lisp-Enforcer ensures that every UI-callback satisfies the memory-safety intent of the parent window.
+
 ## 🐉 Decima8
 
 Our "Dragonfly" project. A Neuromorphic IDE and Emulator for SRAM-memristor clusters.
