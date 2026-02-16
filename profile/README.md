@@ -23,7 +23,7 @@ The heart of our S-OAK (Symbolic Oracle & Architecture Kernel) workflow.
  - *Target:* Saving *C* and *Linux Systems* from "Academic Bloat" (Rust).
  - *Stack:* Clojure/Babashka + Clang AST.
  - *Method: Garden-Tagging.* We use AI as a laborer to annotate code, while our Lisp-based Enforcer validates every pointer, mutex, and memory boundary with zero runtime overhead.
-	- 
+
 ## 🐉 Decima8
 
 Our "Dragonfly" project. A Neuromorphic IDE and Emulator for SRAM-memristor clusters.
