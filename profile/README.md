@@ -34,7 +34,7 @@ Our "Dragonfly" project. A Neuromorphic IDE and Emulator for SRAM-memristor clus
 ## 📜 The "Hacker's" Manifesto
 
  - *Intent over Syntax:* We don't care how the code is written, as long as it satisfies the Intent.
- - *Rules over Chaos:* We don't try to make AI "smarter"—we make it compliant.
+ - *Rules over Chaos:* We don't try to make AI "smarter" — we make it compliant.
  - *C over Rust:* We preserve the speed of the "Old Steel" by shielding it with "Modern Logic."
  - *Pragmatism over Academia:* We are builders, not linguists. If it doesn't work on an *i5-3550*, it doesn't work.
 
@@ -46,4 +46,4 @@ We are looking for *System Architects, Lisp Hackers*, and *C-Veterans* who are t
  - *Step 2:* Tag your Code.
  - *Step 3:* Enforce the Law.
 
-"The Era of the Black Box ends. The Era of the Intent-Garden begins." 🌿🛡️🇨🚀
+"The Era of the Black Box ends. The Era of the Intent-Garden begins." 🌿
