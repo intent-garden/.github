@@ -10,9 +10,9 @@ Modern AI is a "Stochastic Parrot"—powerful but chaotic. At *Intent-Garden*, w
 
 We solve the AI Trust Gap through a three-layer stack:
 
-1. *Symbolic Intent (Lisp/Clojure):* The "Constitutional Law" of the system.
-2. *The Enforcer (Babashka/Clang AST):* A deterministic gatekeeper that audits AI-generated code against formal logic.
-3. *Neuromorphic Execution (Decima8):* Parallel, probabilistic hardware governed by symbolic constraints.
+1. **Symbolic Intent (Lisp/Clojure):** The "Constitutional Law" of the system.
+2. **The Enforcer (Babashka/Clang AST):** A deterministic gatekeeper that audits AI-generated code against formal logic.
+3. **Neuromorphic Execution (Decima8):** Parallel, probabilistic hardware governed by symbolic constraints.
 
 ## 🛠️ Key Projects
 
@@ -20,39 +20,38 @@ We solve the AI Trust Gap through a three-layer stack:
 
 The heart of our S-OAK (Symbolic Oracle & Architecture Kernel) workflow.
 
- - *Target:* Saving *C* and *Linux Systems* from "Academic Bloat" (Rust).
- - *Stack:* Clojure/Babashka + Clang AST.
- - *Method: Garden-Tagging.* We use AI as a laborer to annotate code, while our Lisp-based Enforcer validates every pointer, mutex, and memory boundary with zero runtime overhead.
+* **Target:** Saving *C* and *Linux Systems* from "Academic Bloat" (Rust).
+* **Stack:** Clojure/Babashka + Clang AST.
+* **Method: Garden-Tagging.** We use AI as a laborer to annotate code, while our Lisp-based Enforcer validates every pointer, mutex, and memory boundary with zero runtime overhead.
 
 ## 🎨 libwui
 
-The UI-Framework with a Semantic Backbone.
+While `libwui` utilizes modern C++ smart pointers, it is now strictly governed by **Intent-Garden** policies.
 
-- *Target:* Safe, high-performance C++/C graphical interfaces.
-- *Status:* Adopted by Intent-Garden.
-- *The Upgrade:* We are retrofitting the entire event-loop and widget lifecycle with Garden-Tags.
-- *Benefit:* No more "Use-after-free" on deleted buttons. The Lisp-Enforcer ensures that every UI-callback satisfies the memory-safety intent of the parent window.
+We enforce:
+* **Thread-Affinity:** UI mutations are verified to happen on the correct thread.
+* **Callback Safety:** Lambda captures are audited against the widget lifecycle.
 
 ## 🐉 Decima8
 
 Our "Dragonfly" project. A Neuromorphic IDE and Emulator for SRAM-memristor clusters.
 
- - *Goal:* Moving beyond the Von Neumann bottleneck.
- - *Concept:* A probabilistic neural engine where "synaptic growth" is governed by *Intent-Garden* contracts. It’s a biological machine with a Lisp-based DNA.
+* **Goal:** Moving beyond the Von Neumann bottleneck.
+* **Concept:** A probabilistic neural engine where "synaptic growth" is governed by *Intent-Garden* contracts. It’s a biological machine with a Lisp-based DNA.
 
 ## 📜 The "Hacker's" Manifesto
 
- - *Intent over Syntax:* We don't care how the code is written, as long as it satisfies the Intent.
- - *Rules over Chaos:* We don't try to make AI "smarter" — we make it compliant.
- - *C over Rust:* We preserve the speed of the "Old Steel" by shielding it with "Modern Logic."
- - *Pragmatism over Academia:* We are builders, not linguists. If it doesn't work on an *i5-3550*, it doesn't work.
+* **Intent over Syntax:** We don't care how the code is written, as long as it satisfies the Intent.
+* **Rules over Chaos:** We don't try to make AI "smarter" — we make it compliant.
+* **C over Rust:** We preserve the speed of the "Old Steel" by shielding it with "Modern Logic."
+* **Pragmatism over Academia:** We are builders, not linguists. If it doesn't work on an *i5-3550*, it doesn't work.
 
 ## 🤝 Join the Garden
 
 We are looking for *System Architects, Lisp Hackers*, and *C-Veterans* who are tired of "Vibe-Coding" and ready for *Deterministic Engineering*.
 
- - *Step 1:* Define your Intent.
- - *Step 2:* Tag your Code.
- - *Step 3:* Enforce the Law.
+* **Step 1:** Define your Intent.
+* **Step 2:** Tag your Code.
+* **Step 3:** Enforce the Law.
 
 "The Era of the Black Box ends. The Era of the Intent-Garden begins." 🌿
