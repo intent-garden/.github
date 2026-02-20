@@ -4,6 +4,24 @@
 
 Welcome to the *Intent-Garden*, a research and engineering collective dedicated to *Deterministic AI*. We are building the infrastructure for an era where AI-generated code is no longer a liability, and hardware is no longer a bottleneck.
 
+## 🌱 The Open Experiment
+
+Intent-Garden is an open community effort. We believe that safety in the AI era should not be a corporate secret. We invite hackers, systems engineers, and hobbyists to contribute to our Global Intent Registry. Let’s save the "Old Steel" (C/Linux) together.
+
+## 🛠️ The Open Ecosystem
+
+### 🛡️ [Intent-Garden (S-OAK)](https://github.com/intent-garden/core)
+**The Symbolic Engine.**
+A Clojure-based enforcer that audits AI-generated C/C++ code. It uses **Garden-Tagging** to bridge the gap between Stochastic AI and Deterministic Logic.
+
+### 📖 [Rule-Rom]([https://github.com](https://github.com/rule-rom/intent-garden))
+**The Global Intent Registry.**
+An open-source library of architectural "Best Practices" stored as **EDN/Markdown** contracts. From Memory Safety to Financial Compliance—if it's mission-critical, it belongs in Rule-Rom.
+
+### 🖼️ [LibWUI](https://github.com/intent-garden/wui)
+**The Semantic Interface.**
+A modern C++ UI library managed by Intent-Garden. It serves as our primary testbed for enforcing thread-affinity and memory-safety in complex graphical systems.
+
 ## 🏗️ Our Core Philosophy: Deterministic AI
 
 Modern AI is a "Stochastic Parrot"—powerful but chaotic. At *Intent-Garden*, we believe that mission-critical systems (Streaming, MedTech, Aerospace) cannot rely on probability alone.
@@ -13,31 +31,6 @@ We solve the AI Trust Gap through a three-layer stack:
 1. **Symbolic Intent (Lisp/Clojure):** The "Constitutional Law" of the system.
 2. **The Enforcer (Babashka/Clang AST):** A deterministic gatekeeper that audits AI-generated code against formal logic.
 3. **Neuromorphic Execution (Decima8):** Parallel, probabilistic hardware governed by symbolic constraints.
-
-## 🛠️ Key Projects
-
-## 🛡️ Garden-Core
-
-The heart of our S-OAK (Symbolic Oracle & Architecture Kernel) workflow.
-
-* **Target:** Saving *C* and *Linux Systems* from "Academic Bloat" (Rust).
-* **Stack:** Clojure/Babashka + Clang AST.
-* **Method: Garden-Tagging.** We use AI as a laborer to annotate code, while our Lisp-based Enforcer validates every pointer, mutex, and memory boundary with zero runtime overhead.
-
-## 🎨 libwui
-
-While `libwui` utilizes modern C++ smart pointers, it is now strictly governed by **Intent-Garden** policies.
-
-We enforce:
-* **Thread-Affinity:** UI mutations are verified to happen on the correct thread.
-* **Callback Safety:** Lambda captures are audited against the widget lifecycle.
-
-## 🐉 Decima8
-
-Our "Dragonfly" project. A Neuromorphic IDE and Emulator for SRAM-memristor clusters.
-
-* **Goal:** Moving beyond the Von Neumann bottleneck.
-* **Concept:** A probabilistic neural engine where "synaptic growth" is governed by *Intent-Garden* contracts. It’s a biological machine with a Lisp-based DNA.
 
 ## 📜 The "Hacker's" Manifesto
 
