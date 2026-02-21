@@ -55,3 +55,6 @@ We are looking for *System Architects, Lisp Hackers*, and *C-Veterans* who are t
 * **Step 3:** Enforce the Law.
 
 "The Era of the Black Box ends. The Era of the Intent-Garden begins." 🌿
+
+![Activity](https://img.shields.io)
+![Contributors](https://img.shields.io)
