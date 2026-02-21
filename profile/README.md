@@ -30,7 +30,7 @@ We solve the AI Trust Gap through a three-layer stack:
 
 1. **Symbolic Intent (Lisp/Clojure):** The "Constitutional Law" of the system.
 2. **The Enforcer (Babashka/Clang AST):** A deterministic gatekeeper that audits AI-generated code against formal logic.
-3. **Neuromorphic Execution (Decima8):** Parallel, probabilistic hardware governed by symbolic constraints.
+3. **libWUI:** Ultra-lightweight C++ visualization engine for telemetry systems.
 
 ## 📜 The "Hacker's" Manifesto
 
