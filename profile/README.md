@@ -49,5 +49,4 @@ We are looking for *System Architects, Lisp Hackers*, and *C-Veterans* who are t
 
 "The Era of the Black Box ends. The Era of the Intent-Garden begins." 🌿
 
-![Activity](https://img.shields.io)
-![Contributors](https://img.shields.io)
+![My Activity](https://github-readme-stats.vercel.app)
