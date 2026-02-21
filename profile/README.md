@@ -10,15 +10,15 @@ Intent-Garden is an open community effort. We believe that safety in the AI era 
 
 ## 🛠️ The Open Ecosystem
 
-### 🛡️ [Intent-Garden (S-OAK)](https://github.com/intent-garden/core)
+### 🛡️ [Intent-Garden (S-OAK)](https://intent-garden.org)
 **The Symbolic Engine.**
 A Clojure-based enforcer that audits AI-generated C/C++ code. It uses **Garden-Tagging** to bridge the gap between Stochastic AI and Deterministic Logic.
 
-### 📖 [Rule-Rom](https://github.com/rule-rom/registry)
+### 📖 [Rule-Rom](https://rule-rom.com)
 **The Global Intent Registry.**
 An open-source library of architectural "Best Practices" stored as **EDN/Markdown** contracts. From Memory Safety to Financial Compliance—if it's mission-critical, it belongs in Rule-Rom.
 
-### 🖼️ [LibWUI](https://github.com/intent-garden/wui)
+### 🖼️ [LibWUI](https://libwui.org)
 **The Semantic Interface.**
 A modern C++ UI library managed by Intent-Garden. It serves as our primary testbed for enforcing thread-affinity and memory-safety in complex graphical systems.
 
