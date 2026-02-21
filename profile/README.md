@@ -14,7 +14,7 @@ Intent-Garden is an open community effort. We believe that safety in the AI era 
 **The Symbolic Engine.**
 A Clojure-based enforcer that audits AI-generated C/C++ code. It uses **Garden-Tagging** to bridge the gap between Stochastic AI and Deterministic Logic.
 
-### 📖 [Rule-Rom](https://rule-rom.com)
+### 📖 [Rule-Rom](https://rulerom.com)
 **The Global Intent Registry.**
 An open-source library of architectural "Best Practices" stored as **EDN/Markdown** contracts. From Memory Safety to Financial Compliance—if it's mission-critical, it belongs in Rule-Rom.
 
