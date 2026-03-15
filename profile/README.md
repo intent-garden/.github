@@ -78,7 +78,7 @@ IRC: <ircs://irc.rulerom.com:6697/#decima8>
 - Эстафета, не роутер: тайлы общаются напрямую, без центрального «мозга»
 - Детерминизм: 0 джиттер на ASIC, лог каждого шага, верифицируемый результат
 
-**Читать дальше:** <philo.rulerom.com>
+**Читать дальше:** [philo.rulerom.com](https://philo.rulerom.com)
 
 ## 📊 Бенчмарки (честные цифры)
 
@@ -114,11 +114,11 @@ IRC: <ircs://irc.rulerom.com:6697/#decima8>
 | Канал | Ссылка |
 | ----- | ------ |
 | 🌐 Воронка | intent-garden.org |
-| 🧠 Философия | philo.rulerom.com |
-| ⚙️ Decima-8 | decima.rulerom.com |
-| 💬 IRC | ircs://irc.rulerom.com:6697/#decima8 |
-| ✉️ Email | intent@rulerom.com |
-| 🔐 PKI | pki.rulerom.com |
+| 🧠 Философия | [philo.rulerom.com](https://philo.rulerom.com) |
+| ⚙️ Decima-8 | [decima.rulerom.com](https://decima.rulerom.com) |
+| 💬 IRC | [ircs://irc.rulerom.com:6697/#decima8](ircs://irc.rulerom.com:6697/#decima8) |
+| ✉️ Email | [intent@rulerom.com](mailto:intent@rulerom.com) |
+| 🔐 PKI | [pki.rulerom.com](https://pki.rulerom.com) |
 
 > ❌ Мы не используем Telegram, WhatsApp, Discord как основу.
 
