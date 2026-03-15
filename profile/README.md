@@ -113,7 +113,7 @@ IRC: <ircs://irc.rulerom.com:6697/#decima8>
 
 | Канал | Ссылка |
 | ----- | ------ |
-| 🌐 Воронка | intent-garden.org |
+| 🌐 Воронка | [intent-garden.org](https://intent-garden.org) |
 | 🧠 Философия | [philo.rulerom.com](https://philo.rulerom.com) |
 | ⚙️ Decima-8 | [decima.rulerom.com](https://decima.rulerom.com) |
 | 💬 IRC | [ircs://irc.rulerom.com:6697/#decima8](ircs://irc.rulerom.com:6697/#decima8) |
