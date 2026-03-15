@@ -1,52 +1,135 @@
-# 🌿 Intent-Garden (S-OAK)
+# 🌿 intent-garden
 
-	"We don’t predict the future of AI. We enforce its Intent."
+> **Start Warm. Join the Swarm.**
 
-Welcome to the *Intent-Garden*, a research and engineering collective dedicated to *Deterministic AI*. We are building the infrastructure for an era where AI-generated code is no longer a liability, and hardware is no longer a bottleneck.
+[![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg)](LICENSE)
+[![IRC](https://img.shields.io/badge/Chat-IRC%20%23decima8-5D4037.svg)](https://irc.rulerom.com:6697/#decima8)
+[![Philosophy](https://img.shields.io/badge/Read-Philosophy-FDF6E3.svg)](https://philo.rulerom.com)
 
-## 🌱 The Open Experiment
+---
 
-Intent-Garden is an open community effort. We believe that safety in the AI era should not be a corporate secret. We invite hackers, systems engineers, and hobbyists to contribute to our Global Intent Registry. Let’s save the "Old Steel" (C/Linux) together.
+## Что это
 
-## 🛠️ The Open Ecosystem
+**intent-garden** — входная точка в экосистему **Decima-8**.
 
-### 🛡️ [Intent-Garden (S-OAK)](https://intent-garden.org)
-**The Symbolic Engine.**
-A Clojure-based enforcer that audits AI-generated C/C++ code. It uses **Garden-Tagging** to bridge the gap between Stochastic AI and Deterministic Logic.
+Здесь не «разрабатывают продукт».
+Здесь **привлекают пекарей** — тех, кто будет печь личности `.d8p` в визуальной среде, без кода.
 
-### 📖 [Rule-Rom](https://rulerom.com)
-**The Global Intent Registry.**
-An open-source library of architectural "Best Practices" stored as **EDN/Markdown** contracts. From Memory Safety to Financial Compliance—if it's mission-critical, it belongs in Rule-Rom.
+### 🔑 Три уровня доступа
 
-### 🖼️ [LibWUI](https://libwui.org)
-**The Semantic Interface.**
-A modern C++ UI library managed by Intent-Garden. It serves as our primary testbed for enforcing thread-affinity and memory-safety in complex graphical systems.
+| Уровень | Цена | Для кого | Суть |
+|---------|------|----------|------|
+| 👁️ **Наблюдатель** | 🆓 навсегда | Исследователи, студенты, любознательные | Изучай архитектуру, пробуй шаблоны, читай философию |
+| 👨‍🍳 **Пекарь** | 1 024 ₽/год | Авторы, разработчики, студии | Публикуй `.d8p` в Store, получай роялти, влияй на развитие |
+| 💎 **Эксклюзив** | 102 400 ₽/год | Бизнес, интеграторы | Защита ниши, приоритетная поддержка, персональная стратегия |
 
-## 🏗️ Our Core Philosophy: Deterministic AI
+---
 
-Modern AI is a "Stochastic Parrot"—powerful but chaotic. At *Intent-Garden*, we believe that mission-critical systems (Streaming, MedTech, Aerospace) cannot rely on probability alone.
+## 🚀 Быстрый старт
 
-We solve the AI Trust Gap through a three-layer stack:
+### 1. Получи билет (бесплатно)
 
-1. **Symbolic Intent (Lisp/Clojure):** The "Constitutional Law" of the system.
-2. **The Enforcer (Babashka/Clang AST):** A deterministic gatekeeper that audits AI-generated code against formal logic.
-3. **libWUI:** Ultra-lightweight C++ visualization engine for telemetry systems.
+→ [intent-garden.org](https://intent-garden.org)
 
-## 📜 The "Hacker's" Manifesto
+### 2. Проверь билет (локально)
 
-* **Intent over Syntax:** We don't care how the code is written, as long as it satisfies the Intent.
-* **Rules over Chaos:** We don't try to make AI "smarter" — we make it compliant.
-* **C over Rust:** We preserve the speed of the "Old Steel" by shielding it with "Modern Logic."
-* **Pragmatism over Academia:** We are builders, not linguists. If it doesn't work on an *i5-3550*, it doesn't work.
+```bash
+# Скачай билет (ticket.json + ticket.json.pub)
+./verify ticket.json.pub  # → "✓ Valid"
+```
 
-## 🤝 Join the Garden
+### 3. Запусти визуальную IDE
 
-We are looking for *System Architects, Lisp Hackers*, and *C-Veterans* who are tired of "Vibe-Coding" and ready for *Deterministic Engineering*.
+<https://decima.rulerom.com/ru/tools/ide/>
 
-* **Step 1:** Define your Intent.
-* **Step 2:** Tag your Code.
-* **Step 3:** Enforce the Law.
+### 4. Попробуй себя в роли нейропекаря
 
-"The Era of the Black Box ends. The Era of the Intent-Garden begins." 🌿
+- Открой заготовку личности (например tipograf_256.ocr)
+- Открой ленту аккордов vsb (например eng.vsb)
+- Нажми Flash несколько раз пока не уивдишь в панели решений решение "1" - это машина распознала паттерн
 
-[🌿 S-OAK](https://github.com/intent-garden/core) | [📖 Rule-Rom](https://github.com/rule-rom/registry) | [🖼️ LibWUI](https://github.com/intent-garden/wui)
+### 5. Зайди в сварм
+
+IRC: <ircs://irc.rulerom.com:6697/#decima8>
+Или напиши в #bakers — поможем войти
+
+## 🔐 Суверенный стек
+
+Мы не зависим от сторонних платформ.
+
+| Компонент | Реализация | 
+| --------- | ---------- |
+| Идентичность | Билет с PKI-подписью (Ed25519) |
+| Реестр | Публичный список хешей: reestr.rulerom.com |
+| Связь | Email (intent@rulerom.com) + IRC over TLS | 
+| Код | Pure C, zero deps, открытый исходник |
+| Верификация | ./verify — работает офлайн, без доверия к третьим |
+
+> ⚠️ Мы не используем Telegram, WhatsApp, Discord как основные каналы.
+
+**Если вы получили сообщение от «@decima8_bot» — это не мы.**
+
+**Проверяйте билет:** ./verify ticket.json.pub
+
+## 🧭 Философия
+
+- «Theodicy in code. Suffering ≠ punishment. Suffering = gradient.»
+- Коридор субъектности: thr_lo..thr_hi — не суд, а условие активации
+- Эстафета, не роутер: тайлы общаются напрямую, без центрального «мозга»
+- Детерминизм: 0 джиттер на ASIC, лог каждого шага, верифицируемый результат
+
+**Читать дальше:** <philo.rulerom.com>
+
+## 📊 Бенчмарки (честные цифры)
+
+| Платформа | Мин. задержка | Ср. задержка (4096 тайлов) |
+| --------- | ------------- | -------------------------- |
+| i5-3550 (2012) | 4.6 мкс | 169 мкс |
+| AMD EPYC | 1.0 мкс | 78 мкс |
+| ASIC (целевое) | ~30 нс | O(1) при любом масштабе |
+
+Графики и данные: decima.rulerom.com/benchmarks
+
+## 🤝 Участие
+
+### Наблюдатель (бесплатно)
+
+- Читай философию, спецификации, исходники
+- Пробуй шаблоны: ocr-256, asr-trigger, hft-signal
+- Задавай вопросы в #decima8
+
+### Пекарь (1 024 ₽/год)
+
+- Публикуй .d8p в Store
+- Настраивай роялти (10–30%)
+- Получай статистику и обратную связь
+
+### Партнёр
+
+- Интеграция в вертикаль (агро, медицина, HFT)
+- Эксклюзив на нишу: обсудить
+
+## 🌐 Официальные каналы
+
+| Канал | Ссылка |
+| ----- | ------ |
+| 🌐 Воронка | intent-garden.org |
+| 🧠 Философия | philo.rulerom.com |
+| ⚙️ Decima-8 | decima.rulerom.com |
+| 💬 IRC | ircs://irc.rulerom.com:6697/#decima8 |
+| ✉️ Email | intent@rulerom.com |
+| 🔐 PKI | pki.rulerom.com |
+
+> ❌ Мы не используем Telegram, WhatsApp, Discord как основу.
+
+## 📜 Лицензия
+
+- Код: MIT — делай что хочешь, с указанием авторства.
+- Философия: CC BY-SA 4.0 — делись, развивай, сохраняй суть.
+- Билеты и реестр: публичная верификация — проверяй независимо.
+
+> «Между "ИИ умеет" и "Василий Петрович пользуется" — пропасть.
+
+> Мы строим мост. Приглашаем пекарей.»
+
+*Start Warm. Join the Swarm. 🪱️🔐🚀*
