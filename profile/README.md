@@ -117,6 +117,7 @@ IRC: <ircs://irc.rulerom.com:6697/#decima8>
 | 🧠 Философия | [philo.rulerom.com](https://philo.rulerom.com) |
 | ⚙️ Decima-8 | [decima.rulerom.com](https://decima.rulerom.com) |
 | 💬 IRC | [ircs://irc.rulerom.com:6697/#decima8](ircs://irc.rulerom.com:6697/#decima8) |
+| 📢 TG | [t.me/intentgarden](https://t.me/intentgarden) |
 | ✉️ Email | [intent@rulerom.com](mailto:intent@rulerom.com) |
 | 🔐 PKI | [pki.rulerom.com](https://pki.rulerom.com) |
 
