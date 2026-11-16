@@ -1,97 +1,62 @@
-# 🌿 intent-garden
+# Intent Garden
 
-> **Start Warm. Join the Swarm.**
+**Вычисления, язык, интерфейсы и связь.** Связанные проекты Intent Garden / Rulerom,
+в которых исследовательские идеи проверяются инструментами и реальными приложениями.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg)](LICENSE)
-[![IRC](https://img.shields.io/badge/Chat-IRC%20%23decima8-5D4037.svg)](https://irc.rulerom.com:6697/#decima8)
-[![Philosophy](https://img.shields.io/badge/Read-Philosophy-FDF6E3.svg)](https://philo.rulerom.com)
+[Карта экосистемы](https://intent-garden.org/ru/) · [English](https://intent-garden.org/en/) · [Rulerom](https://github.com/rulerom)
 
----
-
-## Что это
-
-**intent-garden** — входная точка в экосистему детерменированного синтеза критических систем
-
----
-
-## 🚀 Быстрый старт
-
-### 1. Получи билет (бесплатно)
-
-→ [intent-garden.org](https://intent-garden.org)
-
-### 2. Проверь билет (локально)
-
-```bash
-# Скачай билет (ticket.json + ticket.json.pub)
-./verify ticket.json.pub  # → "✓ Valid"
+```mermaid
+flowchart TD
+    D["Decima-8"] -->|"ядро"| F["DragonFly"]
+    D -.->|"идеи и контракты"| L["Liza"]
+    D -->|"стенды и GUI"| W["WUI"]
+    L -.->|"эксперименты с CAN"| V["VideoGrace"]
+    W -->|"нативный UI"| V
+    classDef decima fill:#eeedf5,stroke:#535898,color:#41477b
+    classDef dragonfly fill:#edf3ed,stroke:#36795a,color:#28593e
+    classDef liza fill:#eaf2f1,stroke:#28808b,color:#1c626c
+    classDef wui fill:#f5ecf1,stroke:#a54f80,color:#873863
+    classDef vg fill:#ebf1f6,stroke:#39749b,color:#285b7d
+    class D decima
+    class F dragonfly
+    class L liza
+    class W wui
+    class V vg
 ```
 
-### 3. Запусти визуальную IDE
+Линии показывают разные связи: применение ядра, инструменты и обмен идеями.
+Пунктиром отмечены идеи и экспериментальные интеграции.
 
-<https://decima.rulerom.com/ru/tools/ide/>
+| Проект | Роль и текущее состояние | Точка входа |
+| --- | --- | --- |
+| **Decima‑8** | Нейроморфная архитектура и исполняемое C-ядро: тайлы, сигналы, явное состояние. Исследовательская основа и стенды. | [Описание](https://intent-garden.org/ru/#project-decima) |
+| **DragonFly** | Бинокулярный зрительный стенд на двух независимых ядрах Decima‑8. Исследуем малые движущиеся цели; реальная камера и аппаратный полёт ещё не проверены. | [Описание](https://intent-garden.org/ru/#project-dragonfly) |
+| **Liza** | Экспериментальный системный язык для сетевых сервисов: эффекты, владение, контроль ресурсов, нативная компиляция через LLVM. | [Документация](https://liza.rulerom.com/) · [Код](https://github.com/rulerom/liza) |
+| **WUI** | C++17-библиотека интерфейсов для Windows/Linux с экспериментальными macOS/WASM backend. Используется в нативном VideoGrace и инструментах Decima. | [Код и релизы](https://github.com/intent-garden/wui) · [Сайт](http://libwui.org/) |
+| **VideoGrace** | Прикладной продукт: видеоконференции, мессенджер, записи, расшифровка, перевод и саммари встреч. | [Сайт продукта](https://videograce.ru/) |
 
-### 4. Попробуй себя в роли нейропекаря
+## Как проекты помогают друг другу
 
-- Открой заготовку личности (например tipograf_256.ocr)
-- Открой ленту аккордов vsb (например eng.vsb)
-- Нажми Flash несколько раз пока не уивдишь в панели решений решение "1" - это машина распознала паттерн
+- **Decima → DragonFly:** конкретная задача восприятия позволяет исследовать
+  вычислительную модель и измерять ограничения ядра.
+- **Liza → VideoGrace:** CAN даёт языку практический сетевой сценарий.
+  Экспериментальный worker уже выполнил задачу на настоящем сервере; текущий
+  сервер VideoGrace не объявляется переписанным на Liza.
+- **WUI → VideoGrace:** общий нативный UI проверяется в рабочем приложении.
+  Проблемы с потоками, устройствами и отрисовкой возвращаются исправлениями в библиотеку.
 
-### 5. Зайди в сварм
+Проекты развиваются в нескольких репозиториях и организациях. Доступность исходников,
+лицензии и границы поддержки определяются отдельно в каждом проекте.
 
-IRC: <ircs://irc.rulerom.com:6697/#decima8>
-Или напиши в #bakers — поможем войти
+**Обсудить исследование, инструмент или совместную работу:** [intent@rulerom.com](mailto:intent@rulerom.com).
 
-## 🔐 Суверенный стек
+## In English
 
-Мы не зависим от сторонних платформ.
+Intent Garden / Rulerom connects five engineering projects: **Decima‑8** explores
+neuromorphic computation; **DragonFly** is a binocular vision research bench built
+on that core; **Liza** is an experimental systems language; **WUI** provides native
+interfaces; **VideoGrace** brings communication and collaboration to real users.
 
-| Компонент | Реализация | 
-| --------- | ---------- |
-| Идентичность | Билет с PKI-подписью (Ed25519) |
-| Реестр | Публичный список хешей: reestr.rulerom.com |
-| Связь | Email (intent@rulerom.com) + IRC over TLS | 
-| Код | Pure C, zero deps, открытый исходник |
-| Верификация | ./verify — работает офлайн, без доверия к третьим |
-
-> ⚠️ Мы не используем Telegram, WhatsApp, Discord как основные каналы.
-
-**Если вы получили сообщение от «@decima8_bot» — это не мы.**
-
-**Проверяйте билет:** ./verify ticket.json.pub
-
----
-
-## 🧭 Философия
-
-- «Theodicy in code. Suffering ≠ punishment. Suffering = gradient.»
-- Коридор субъектности: thr_lo..thr_hi — не суд, а условие активации
-- Эстафета, не роутер: тайлы общаются напрямую, без центрального «мозга»
-- Детерминизм: 0 джиттер на ASIC, лог каждого шага, верифицируемый результат
-
-**Читать дальше:** [philo.rulerom.com](https://philo.rulerom.com)
-
----
-
-## 🌐 Официальные каналы
-
-| Канал | Ссылка |
-| ----- | ------ |
-| 🌐 Воронка | [intent-garden.org](https://intent-garden.org) |
-| 🧠 Философия | [philo.rulerom.com](https://philo.rulerom.com) |
-| ⚙️ Decima-8 | [decima.rulerom.com](https://decima.rulerom.com) |
-| 💬 IRC | [ircs://irc.rulerom.com:6697/#decima8](ircs://irc.rulerom.com:6697/#decima8) |
-| 📢 TG | [t.me/intentgarden](https://t.me/intentgarden) |
-| ✉️ Email | [intent@rulerom.com](mailto:intent@rulerom.com) |
-| 🔐 PKI | [pki.rulerom.com](https://pki.rulerom.com) |
-
-> ❌ Мы не используем Telegram, WhatsApp, Discord как основу.
-
----
-
-## 📜 Лицензия
-
-- Код: BSD — делай что хочешь, с указанием авторства.
-- Философия: CC BY-SA 4.0 — делись, развивай, сохраняй суть.
-- Билеты и реестр: публичная верификация — проверяй независимо.
-
+The ecosystem includes working libraries and products as well as experiments.
+Connections distinguish existing application from evolving ideas and prototypes.
+[Explore the project map](https://intent-garden.org/en/).
