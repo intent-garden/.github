@@ -3,7 +3,7 @@
 **Вычисления, язык, интерфейсы и связь.** Связанные проекты Intent Garden / Rulerom,
 в которых исследовательские идеи проверяются инструментами и реальными приложениями.
 
-[Карта экосистемы](http://intent-garden.org/ru/) · [English](http://intent-garden.org/en/) · [Rulerom](https://github.com/rulerom)
+[Карта экосистемы](https://intent-garden.org/ru/) · [English](https://intent-garden.org/en/) · [Rulerom](https://github.com/rulerom)
 
 ```mermaid
 flowchart TD
@@ -29,8 +29,8 @@ flowchart TD
 
 | Проект | Роль и текущее состояние | Точка входа |
 | --- | --- | --- |
-| **Decima‑8** | Нейроморфная архитектура и исполняемое C-ядро: тайлы, сигналы, явное состояние. Исследовательская основа и стенды. | [Описание](http://intent-garden.org/ru/#project-decima) |
-| **DragonFly** | Бинокулярный зрительный стенд на двух независимых ядрах Decima‑8. Исследуем малые движущиеся цели; реальная камера и аппаратный полёт ещё не проверены. | [Описание](http://intent-garden.org/ru/#project-dragonfly) |
+| **Decima‑8** | Нейроморфная архитектура и исполняемое C-ядро: тайлы, сигналы, явное состояние. Исследовательская основа и стенды. | [Описание](https://intent-garden.org/ru/#project-decima) |
+| **DragonFly** | Бинокулярный зрительный стенд на двух независимых ядрах Decima‑8. Исследуем малые движущиеся цели; реальная камера и аппаратный полёт ещё не проверены. | [Описание](https://intent-garden.org/ru/#project-dragonfly) |
 | **Liza** | Экспериментальный системный язык для сетевых сервисов: эффекты, владение, контроль ресурсов, нативная компиляция через LLVM. | [Документация](https://liza.rulerom.com/) · [Код](https://github.com/rulerom/liza) |
 | **WUI** | C++17-библиотека интерфейсов для Windows/Linux с экспериментальными macOS/WASM backend. Используется в нативном VideoGrace и инструментах Decima. | [Код и релизы](https://github.com/intent-garden/wui) · [Сайт](http://libwui.org/) |
 | **VideoGrace** | Прикладной продукт: видеоконференции, мессенджер, записи, расшифровка, перевод и саммари встреч. | [Сайт продукта](https://videograce.ru/) |
@@ -59,4 +59,4 @@ interfaces; **VideoGrace** brings communication and collaboration to real users.
 
 The ecosystem includes working libraries and products as well as experiments.
 Connections distinguish existing application from evolving ideas and prototypes.
-[Explore the project map](http://intent-garden.org/en/).
+[Explore the project map](https://intent-garden.org/en/).
